@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://dzillo1.github.io/ab-site/portfolio/",
+  "homepage": "https://dzillo1.github.io/ab-site",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
