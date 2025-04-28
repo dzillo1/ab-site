@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Header/>
-      <p>Hello, this is a test!</p>
     </>
   )
 }
