@@ -1,3 +1,21 @@
+body, nav{
+    background-color: #000;
+}
+.navbar a{
+    color:white;
+}
+:root{
+    width:100%;
+}
+
 h1{
     color:green;
+}
+.logo{
+    width:5rem;
+    height:auto;
+}
+
+.navbar-expand-lg .navbar-nav a{
+    text-decoration: none;
 }

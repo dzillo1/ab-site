@@ -1,14 +1,27 @@
-
-import './App.css'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Portfolio.css'
-import Header from './Components/Header'
+import Navbar from './Components/Navbar'
+import Home from './Components/Home'
+import About from './Components/About'
+import Contact from './Components/Contact'
+import Work from './Components/Work'
 
 function App() {
 
   return (
-    <>
-      <Header/>
-    </>
+    <BrowserRouter basename="/ab-site/">
+      <div>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/work" element={<Work/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 
