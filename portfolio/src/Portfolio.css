@@ -1,21 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
+
+.sansation-light {
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .sansation-regular {
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sansation-bold {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .sansation-light-italic {
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .sansation-regular-italic {
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .sansation-bold-italic {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
 body, nav{
     background-color: #000;
 }
-.navbar a{
-    color:white;
-}
 :root{
     width:100%;
-}
-
-h1{
-    color:green;
 }
 .logo{
     width:5rem;
     height:auto;
 }
-
 .navbar-expand-lg .navbar-nav a{
     text-decoration: none;
+}
+.navbar a{
+    color:white;
+}
+.navbar a:hover{
+    color:#475b4e;
+}
+h1{
+    color:#00a83d;
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+    color:#475b4e;
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+p{
+    color:#6D7477;
 }

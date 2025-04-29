@@ -13,8 +13,8 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav gap-3">
                         <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")} aria-current="page">Home</NavLink>
-                        <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>About</NavLink>
-                        <NavLink to="/work" className={({ isActive }) => (isActive ? "active" : "")}>Work</NavLink>
+                        <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")} viewTransition>About</NavLink>
+                        <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")}>Projects</NavLink>
                         <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>Contact</NavLink>
                     </div>
                 </div>
