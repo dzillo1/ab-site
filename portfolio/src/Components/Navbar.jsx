@@ -1,8 +1,30 @@
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Logo from '../assets/logo.webp';
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP);
+
+
+
+
+
 
 function Navbar() {
+
+    useEffect(() => {
+        gsap.to(".logo", { opacity: 0 } );
+        gsap.to(".logo", {delay:.5, duration:1, opacity: 1 } );
+        gsap.to(".nav-link", {x: 300});
+        gsap.to(".nav-link", {delay:1, duration:1, opacity: 1, x:0, stagger: 0.3 } );
+      }, []);
+        
+   
+
+
+
+
     const [isCollapsed, setIsCollapsed] = useState(true);
 
     const handleToggle = () => {
@@ -10,7 +32,7 @@ function Navbar() {
     };
 
     const handleLinkClick = () => {
-        setIsCollapsed(true); // Collapse the navbar when a link is clicked
+        setIsCollapsed(true);
     };
 
     return (
@@ -31,16 +53,23 @@ function Navbar() {
                     <div className="navbar-nav gap-3">
                         <NavLink 
                         to="/" 
-                        className={({ isActive }) => (isActive ? "active" : "")} aria-current="page"
+                        className={({ isActive }) => `nav-link ${isActive ? "active" : ""} nav-link`}  
+                        aria-current="page"
                         onClick={handleLinkClick}
                         >Home</NavLink>
-                        <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}
+
+                        <NavLink to="/about" 
+                        className={({ isActive }) => `nav-link ${isActive ? "active" : ""} nav-link`} 
                         onClick={handleLinkClick} 
                         >About</NavLink>
-                        <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")}
+
+                        <NavLink to="/projects" 
+                        className={({ isActive }) => `nav-link ${isActive ? "active" : ""} nav-link`} 
                         onClick={handleLinkClick}
                         >Projects</NavLink>
-                        <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}
+
+                        <NavLink to="/contact" 
+                        className={({ isActive }) => `nav-link ${isActive ? "active" : ""} nav-link`} 
                         onClick={handleLinkClick}
                         >Contact</NavLink>
                     </div>
