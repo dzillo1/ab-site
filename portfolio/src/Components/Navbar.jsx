@@ -6,11 +6,6 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
-
-
-
-
-
 function Navbar() {
 
     useEffect(() => {
@@ -20,11 +15,6 @@ function Navbar() {
         gsap.to(".nav-link", {delay:1, duration:1, opacity: 1, x:0, stagger: 0.3 } );
       }, []);
         
-   
-
-
-
-
     const [isCollapsed, setIsCollapsed] = useState(true);
 
     const handleToggle = () => {
