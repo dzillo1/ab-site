@@ -72,6 +72,9 @@ a.navbar-brand.active{
 .navbar-toggler:focus {
   box-shadow: 0 0 .5rem #b0ff61;
 }
+.section{
+  height:100vh
+}
 h1{
     color:#00a83d;
     font-family: "Sansation", sans-serif;

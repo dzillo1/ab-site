@@ -1,14 +1,10 @@
-import { motion } from "framer-motion";
+
 
 function About() {
     return (
-        <motion.div 
-        id="#about"
-        className="container top-pad"
-        initial={{ y: "100%", opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: "-100%", opacity: 0 }}
-        transition={{ duration: 0.5 }}
+        <div 
+        id="about"
+        className="container top-pad section"
         >
             <div className="row">
                 <div className="col-md-6">
@@ -17,7 +13,7 @@ function About() {
                     <p>As mentioned, I have a passion for web development. This passion makes me look forward everyday to creating, building and learning something new. </p>
                 </div>
             </div>
-        </motion.div>
+        </div>
     );
 }
 

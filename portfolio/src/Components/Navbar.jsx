@@ -15,6 +15,24 @@ function Navbar() {
         gsap.to(".nav-link", { delay: 1, duration: 1, opacity: 1, x: 0, stagger: 0.3 });
     }, []);
 
+    useEffect(() => {
+        const sections = document.querySelectorAll("section, div[id]");
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        setActiveLink(`#${entry.target.id}`);
+                    }
+                });
+            },
+            { threshold: 0.6 }
+        );
+
+        sections.forEach((section) => observer.observe(section));
+
+        return () => observer.disconnect();
+    }, []);
+
     const handleToggle = () => {
         setIsCollapsed(!isCollapsed);
     };
