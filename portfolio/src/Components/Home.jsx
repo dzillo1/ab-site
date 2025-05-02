@@ -3,12 +3,12 @@ import Hero from './Hero';
 
 function Home() {
     return (
-        <div
+        <section
         id="home"
         className="container section"
         >
             <Hero/>
-        </div>
+        </section>
     );
 }
 

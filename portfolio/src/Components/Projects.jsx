@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects(){
     return(
-        <div 
+        <section 
         id="projects"
         className="container top-pad section"
         >
@@ -13,7 +13,7 @@ function Projects(){
                     <ProjectCard />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 
