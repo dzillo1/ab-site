@@ -3,7 +3,7 @@ function Hero(){
         <div className="hero top-pad">
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-md-6">
                         <h1>Andrew Borzillo</h1>
                         <h2><em>Front End Developer</em></h2>
                         <p>Hi, my name is Andrew Borzillo but you can call me Drew.<br/>

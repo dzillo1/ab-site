@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 function Projects(){
     return(
         <motion.div 
+        id="projects"
         className="container top-pad"
         initial={{ y: "100%", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -12,7 +13,7 @@ function Projects(){
         >
             <h1 className="mb-5">Projects</h1>
             <div className="row">
-                <div className="col-12 col-md-3">
+                <div className="col-md-3">
                     <ProjectCard />
                 </div>
             </div>

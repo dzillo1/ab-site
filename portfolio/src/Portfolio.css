@@ -1,6 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
 
+html, body{
+  margin:0;
+  padding:0;
+  background-color: #0a0a0a;
+  font-family: "Sansation", sans-serif;
+}
+nav{
+  background-color: rgba(10, 10, 10, .8);
+}
   .sansation-regular {
     font-family: "Sansation", sans-serif;
     font-weight: 400;
@@ -31,12 +40,6 @@
     font-style: italic;
   }
   
-body, nav{
-    background-color: #000;
-}
-:root{
-    width:100%;
-}
 .logo{
     width:5rem;
     height:auto;
@@ -76,14 +79,14 @@ h1{
     font-style: normal;
 }
 h2{
-    color:#475b4e;
+    color:#899a8e;
     font-family: "Sansation", sans-serif;
     font-weight: 300;
     font-style: italic;
 }
 
 p{
-    color:#6D7477;
+    color:#aeb3b5;
 }
 .email-link{
   color:#fff;

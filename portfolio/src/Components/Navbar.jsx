@@ -34,7 +34,7 @@ function Navbar() {
             aria-label="Toggle navigation"
             onClick={handleToggle}
             >
-            <span className="navbar-toggler-icon"></span>
+            <span className="d-block d-lg-none text-white">&#9776;</span>
             </button>
 
                 <div 

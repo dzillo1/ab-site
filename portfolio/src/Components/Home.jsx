@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 function Home() {
     return (
         <motion.div
+        id="home"
         className="container"
         initial={{ y: "100%", opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
