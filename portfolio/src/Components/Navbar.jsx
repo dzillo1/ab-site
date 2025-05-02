@@ -45,6 +45,8 @@ function Navbar() {
     return (
         <nav className='navbar navbar-expand-lg fixed-top'>
             <div className="container-fluid">
+
+
                 <a
                     className="navbar-brand"
                     href="#home"
@@ -64,6 +66,9 @@ function Navbar() {
                 >
                     <span className="d-block d-lg-none text-white">&#9776;</span>
                 </button>
+
+
+
 
                 <div
                     className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
