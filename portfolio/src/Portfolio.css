@@ -132,3 +132,17 @@ p{
 #about svg{
   cursor: pointer;
 }
+.card-text{
+  color:#29353A;
+}
+
+.card button{
+  background-color:#00a83d;
+  color:#fff;
+  width:100%;
+
+}
+.card button:hover{
+  background-color:#015821;
+  color:#fff;
+}

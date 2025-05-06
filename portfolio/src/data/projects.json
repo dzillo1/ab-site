@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Order Options",
+      "description": "'Order Options' component made with VUE.js.",
+      "image": "./src/assets/order-options.webp",
+      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/order-options.php"
+
+    },
+    {
+      "title": "Project 2",
+      "description": "Description for Project 2.",
+      "image": "path/to/image2.webp",
+      "link": "https://github.com/user/project2"
+    },
+    {
+      "title": "Project 3",
+      "cardTitle": "Project 3",
+      "description": "Description for Project 3.",
+      "image": "path/to/image3.webp",
+      "link": "https://github.com/user/project3"
+    }
+  ]

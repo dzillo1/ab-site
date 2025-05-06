@@ -2,53 +2,65 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
-import orderOptionsImage from '../assets/order-options.webp';
+import data from "../data/projects.json";
 
-function ProjectCard(){
+function ProjectCard() {
   const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const [activeProject, setActiveProject] = useState(null);
 
-    return (
-      <>
-        <Card 
-        className="project-card">
-          <a onClick={handleShow}>
-            <Card.Img 
-            classname="card-img" 
-            variant="top" 
-            src={orderOptionsImage} />
+  const handleClose = () => setShow(false);
+  const handleShow = (project) => {
+    setActiveProject(project);
+    setShow(true);
+  };
+
+  return (
+    <>
+      {data.map((project, index) => (
+        <Card key={index} className="project-card">
+          <a onClick={() => handleShow(project)}>
+            <Card.Img
+              className="card-img"
+              variant="top"
+              src={project.image}
+            />
             <Card.Body>
-              <Card.Title>Order Options</Card.Title>
-              <Card.Text>
-                Order options component made with VUE.js
-              </Card.Text>
-              <Button variant="success w-100">View</Button>
+              <Card.Title className="card-title">{project.title}</Card.Title>
+              <Card.Text className="card-text mb-3">{project.description}</Card.Text>
+              <Button variant="w-100">View</Button>
             </Card.Body>
           </a>
+
+          <Modal
+            size="lg"
+            show={show && activeProject === project}
+            onHide={handleClose}
+            aria-labelledby="project-modal"
+          >
+            <Modal.Header closeButton>
+              <Modal.Title className="modal-title">{project.title}</Modal.Title>
+            </Modal.Header>
+            <Modal.Body className="text-center">
+              <img
+                src={project.image}
+                className="img-fluid mb-3 card-img"
+                alt={project.title}
+              />
+              <p>{project.description}</p>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-align-center code-link"
+              >
+                Code
+              </a>
+            </Modal.Body>
+          </Modal>
         </Card>
-
-        <Modal 
-        size="lg"
-        show={show} 
-        onHide={handleClose}
-        aria-labelledby="order-options-vue"
-        >
-        <Modal.Header closeButton>
-          <Modal.Title>'Order Options' component made with VUE.js</Modal.Title>
-        </Modal.Header>
-        <Modal.Body className="text-center">
-          <img 
-          src={orderOptionsImage} 
-          className="img-fluid mb-3"/>
-        <a href="https://github.com/dzillo1/ns-code/blob/main/VUE-comp/order-options.php" 
-        target="_blank" 
-        className="text-align-center">Code</a>
-        </Modal.Body>
-        </Modal>
-      </>
-
-      );
+      ))}
+    </>
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;

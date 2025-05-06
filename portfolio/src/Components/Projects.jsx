@@ -1,5 +1,5 @@
-
 import ProjectCard from "./ProjectCard";
+import data from '../data/projects.json';
 
 function Projects(){
     return(
@@ -9,9 +9,9 @@ function Projects(){
         >
             <h1 className="mb-5">Projects</h1>
             <div className="row">
-                <div className="col-md-3">
-                    <ProjectCard />
-                </div>
+                    <div className="col-12 d-flex flex-column flex-md-row gap-4">
+                        <ProjectCard />
+                    </div>
             </div>
         </section>
     );
