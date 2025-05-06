@@ -2,20 +2,20 @@
     {
       "title": "Order Options",
       "description": "'Order Options' component made with VUE.js.",
-      "image": "https://github.com/dzillo1/ab-site/portfolio/src/assets/order-options.webp",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/order-options.webp",
       "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/order-options.php"
 
     },
     {
       "title": "Cart Item",
       "description": "'Cart Item' component made with VUE.js.",
-      "image": "./src/assets/cart-item.webp",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/cart-item.webp",
       "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/cart-item.php"
     },
     {
       "title": "Product Item",
       "description": "'Product Item' component made with VUE.js.",
-      "image": "./src/assets/product-item.webp",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/product-item.webp",
       "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/product-item.php"
     }
   ]
