@@ -38,15 +38,18 @@ function ProjectCard() {
             aria-labelledby="project-modal"
           >
             <Modal.Header closeButton>
-              <Modal.Title className="modal-title">{project.title}</Modal.Title>
+              <Modal.Title className="modal-title text-white">{project.title}</Modal.Title>
             </Modal.Header>
             <Modal.Body className="text-center">
               <img
                 src={project.image}
-                className="img-fluid mb-3 card-img"
+                className="img-fluid card-img"
                 alt={project.title}
               />
-              <p>{project.description}</p>
+
+            </Modal.Body>
+            <Modal.Footer className="d-flex flex-column">
+              <p className="description">{project.description}</p>
               <a
                 href={project.link}
                 target="_blank"
@@ -55,7 +58,8 @@ function ProjectCard() {
               >
                 Code
               </a>
-            </Modal.Body>
+            </Modal.Footer>
+
           </Modal>
         </Card>
       ))}

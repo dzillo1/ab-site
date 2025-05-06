@@ -100,6 +100,9 @@ h2{
 p{
     color:#aeb3b5;
 }
+.description{
+  color:#fff;
+}
 .email-link{
   color:#fff;
 }
@@ -148,4 +151,16 @@ p{
 .card button:hover{
   background-color:#015821;
   color:#fff;
+}
+
+.code-link{
+  color:#b0ff61;
+}
+.modal-header, .modal-footer{
+  background-color:#015821;
+  color:#fff;
+}
+
+.modal-header .btn-close{
+  background-color: #b0ff61
 }
