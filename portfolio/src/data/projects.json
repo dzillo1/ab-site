@@ -7,16 +7,15 @@
 
     },
     {
-      "title": "Project 2",
-      "description": "Description for Project 2.",
-      "image": "path/to/image2.webp",
-      "link": "https://github.com/user/project2"
+      "title": "Cart Item",
+      "description": "'Cart Item' component made with VUE.js.",
+      "image": "./src/assets/cart-item.webp",
+      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/cart-item.php"
     },
     {
-      "title": "Project 3",
-      "cardTitle": "Project 3",
-      "description": "Description for Project 3.",
-      "image": "path/to/image3.webp",
-      "link": "https://github.com/user/project3"
+      "title": "Product Item",
+      "description": "'Product Item' component made with VUE.js.",
+      "image": "./src/assets/product-item.webp",
+      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/product-item.php"
     }
   ]

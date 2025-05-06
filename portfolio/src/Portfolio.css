@@ -81,6 +81,9 @@ a.navbar-brand.active{
 .section{
   height:100vh
 }
+#projects.section{
+  height:200vh
+}
 h1{
     color:#00a83d;
     font-family: "Sansation", sans-serif;

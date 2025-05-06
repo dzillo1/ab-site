@@ -20,7 +20,7 @@ function ProjectCard() {
         <Card key={index} className="project-card">
           <a onClick={() => handleShow(project)}>
             <Card.Img
-              className="card-img"
+              className="card-img img-fluid"
               variant="top"
               src={project.image}
             />
