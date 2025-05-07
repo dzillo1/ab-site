@@ -46,7 +46,6 @@ function ProjectCard() {
                 className="img-fluid card-img"
                 alt={project.title}
               />
-
             </Modal.Body>
             <Modal.Footer className="d-flex flex-column">
               <p className="description">{project.description}</p>
@@ -58,11 +57,19 @@ function ProjectCard() {
               >
                 Code
               </a>
+              <a
+                href={project.published}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`${project.published ? "link-published" : "link-unpublished"} text-align-center code-link`}
+              >
+                {project.published ? "View Published Project" : "Not Published"}
+              </a>
             </Modal.Footer>
-
           </Modal>
         </Card>
       ))}
+      
     </>
   );
 }
