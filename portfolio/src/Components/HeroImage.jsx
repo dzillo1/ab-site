@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { gsap } from "gsap";
 
 gsap.registerPlugin();
@@ -9,11 +9,11 @@ function HeroImage() {
         gsap.to(".bg-circle", { opacity: 0, x: 200});
         gsap.to(".bg-circle", { delay: 1, duration: 1, x: 0, opacity: 1 });
         gsap.to(".lg-screen", { y: -300, opacity:0 });
-        gsap.to(".lg-screen", { delay: 1, duration: .2, opacity: 1, y: 0, stagger: 0.2 });
+        gsap.to(".lg-screen", { delay: 1, duration: .1, opacity: 1, y: 0, stagger: 0.1 });
         gsap.to(".md-screen", { y: 300, opacity:0 });
-        gsap.to(".md-screen", { delay: 1.5, duration: .2, opacity: 1, y: 0, stagger: 0.3 });
+        gsap.to(".md-screen", { delay: .5, duration: .1, opacity: 1, y: 0, stagger: 0.2 });
         gsap.to(".sm-screen", { y: 300, opacity:0 });
-        gsap.to(".sm-screen", { delay: 1.6, duration: .2, opacity: 1, y: 0, stagger: 0.3 });
+        gsap.to(".sm-screen", { delay: 1.1, duration: .1, opacity: 1, y: 0, stagger: 0.2 });
     }, []);
     return(
         
