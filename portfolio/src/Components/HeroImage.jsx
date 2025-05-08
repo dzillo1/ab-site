@@ -17,8 +17,8 @@ function HeroImage() {
     }, []);
     return(
         
-            <svg version="1.1" id="heroImage" className="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                 viewBox="0 0 511.997 511.997" xml:space="preserve">
+            <svg version="1.1" id="heroImage" className="" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+                 viewBox="0 0 511.997 511.997" xmlSpace="preserve">
             <circle className="bg-circle" style={{fill:"#015821"}} cx="255.999" cy="255.999" r="255.999"/>
             <path className="lg-screen" style={{fill:"#666666"}} d="M49.359,118.027h370.52c12.173,0,22.133,9.959,22.133,22.133v228.246H27.227V140.16
                 C27.227,127.987,37.186,118.027,49.359,118.027z"/>

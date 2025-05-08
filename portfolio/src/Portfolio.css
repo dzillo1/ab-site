@@ -102,7 +102,7 @@ h2{
     font-style: italic;
 }
 
-p{
+p, h4{
     color:#aeb3b5;
 }
 .description{

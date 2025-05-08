@@ -4,7 +4,7 @@ function Hero(){
     return(
         <div className="hero top-pad">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center gap-3 gap-md-0">
                     <div className="col-12 col-md-6">
                         <h1>Andrew Borzillo</h1>
                         <h2><em>Front End Designer/Developer</em></h2>
