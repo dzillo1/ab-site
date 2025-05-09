@@ -83,12 +83,7 @@ a.navbar-brand.active{
 .navbar-toggler:focus {
   box-shadow: 0 0 .5rem #b0ff61;
 }
-.section{
-  height:100vh
-}
-#projects.section{
-  height:200vh
-}
+
 h1{
     color:#00a83d;
     font-family: "Sansation", sans-serif;
@@ -104,6 +99,7 @@ h2{
 
 p, h4{
     color:#aeb3b5;
+    line-height:1.5
 }
 .description{
   color:#fff;
@@ -143,6 +139,10 @@ p, h4{
 #about svg{
   cursor: pointer;
 }
+#about .svg-icon {
+    width: 10%;
+    height: auto;
+}
 .card-text{
   color:#29353A;
 }
@@ -173,6 +173,12 @@ p, h4{
   color: gray;
   text-decoration: none;
 }
+  #heroImage{
+    max-width:70%;
+  }
+  #contact{
+    min-height:50rem
+  }
 
 @media(max-width:767px){
   #heroImage{
@@ -181,3 +187,4 @@ p, h4{
     margin:0 auto;
   }
 }
+

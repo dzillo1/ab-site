@@ -7,19 +7,39 @@ gsap.registerPlugin();
 function HeroImage() {
     useEffect(() => {
         gsap.to(".bg-circle", { opacity: 0, x: 200});
-        gsap.to(".bg-circle", { delay: 1, duration: 1, x: 0, opacity: 1 });
+        gsap.to(".bg-circle", { delay: .3, duration: 1, x: 0, opacity: 1 });
         gsap.to(".lg-screen", { y: -300, opacity:0 });
         gsap.to(".lg-screen", { delay: 1, duration: .1, opacity: 1, y: 0, stagger: 0.1 });
         gsap.to(".md-screen", { y: 300, opacity:0 });
-        gsap.to(".md-screen", { delay: .5, duration: .1, opacity: 1, y: 0, stagger: 0.2 });
+        gsap.to(".md-screen", { delay: 1.1, duration: .1, opacity: 1, y: 0, stagger: 0.2 });
         gsap.to(".sm-screen", { y: 300, opacity:0 });
-        gsap.to(".sm-screen", { delay: 1.1, duration: .1, opacity: 1, y: 0, stagger: 0.2 });
+        gsap.to(".sm-screen", { delay: 1.2, duration: .1, opacity: 1, y: 0, stagger: 0.3 });
+
     }, []);
     return(
         
             <svg version="1.1" id="heroImage" className="" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
                  viewBox="0 0 511.997 511.997" xmlSpace="preserve">
-            <circle className="bg-circle" style={{fill:"#015821"}} cx="255.999" cy="255.999" r="255.999"/>
+
+    <defs>
+        <linearGradient id="animatedGradient" x1="0%" y1="0%" x2="100%" y2="1%">
+            <stop offset="0%" stopColor="#015821">
+                <animate 
+                attributeName="stop-color" 
+                values="#015821; #028a3d; #003919; #015821" 
+                dur="6s" 
+                repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stopColor="#028a3d">
+                <animate 
+                attributeName="stop-color" 
+                values="#028a3d; #015821; #003919; #028a3d" 
+                dur="6s" 
+                repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+    </defs>       
+            <circle className="bg-circle" style={{ fill: "url(#animatedGradient)" }} cx="255.999" cy="255.999" r="255.999"/>
             <path className="lg-screen" style={{fill:"#666666"}} d="M49.359,118.027h370.52c12.173,0,22.133,9.959,22.133,22.133v228.246H27.227V140.16
                 C27.227,127.987,37.186,118.027,49.359,118.027z"/>
             <path className="lg-screen" style={{fill:"#ffffff"}} d="M42.256,353.376h384.729V140.16c0-3.876-3.227-7.103-7.103-7.103H49.362
@@ -28,13 +48,13 @@ function HeroImage() {
             <path className="lg-screen" style={{fill:"#B6B6B8"}} d="M7.082,368.406h455.076v12.782c0,7.029-5.753,12.782-12.782,12.782H19.861
                 c-7.029,0-12.782-5.753-12.782-12.782v-12.782H7.082z"/>
             <path className="lg-screen" style={{fill:"#919191"}} d="M189.199,373.077h90.84l-9.731,6.463h-71.38l-9.731-6.463H189.199z"/>
-            <path className="md-screen" style={{fill:"#666666"}} d="M331.128,198.396h136.094c4.316,0,7.814,3.498,7.814,7.814v179.945c0,4.316-3.498,7.814-7.814,7.814
+            <path className="md-screen frame" style={{fill:"#666666"}} d="M331.128,198.396h136.094c4.316,0,7.814,3.498,7.814,7.814v179.945c0,4.316-3.498,7.814-7.814,7.814
                 H331.128c-4.316,0-7.814-3.498-7.814-7.814V206.21C323.314,201.894,326.813,198.396,331.128,198.396z"/>
             <path className="md-screen" style={{fill:"#ffffff"}} d="M332.814,212.237h132.724c0.501,0,0.907,0.406,0.907,0.907v161.608c0,0.501-0.406,0.907-0.907,0.907
                 H332.814c-0.501,0-0.907-0.406-0.907-0.907V213.145C331.907,212.644,332.313,212.237,332.814,212.237z"/>
             <circle className="md-screen" style={{fill:"#B6B6B8"}} cx="399.178" cy="384.487" r="5.096"/>
             <path className="md-screen" style={{fill:"#ECF0F1"}} d="M338.989,232.48h120.377v70.95H338.989V232.48z"/>
-            <path className="sm-screen" style={{fill:"#666666"}} d="M437.9,268.396h63.051c2.191,0,3.966,1.776,3.966,3.966v117.642c0,2.191-1.776,3.966-3.966,3.966
+            <path className="sm-screen frame" style={{fill:"#666666"}} d="M437.9,268.396h63.051c2.191,0,3.966,1.776,3.966,3.966v117.642c0,2.191-1.776,3.966-3.966,3.966
                 H437.9c-2.191,0-3.966-1.776-3.966-3.966V272.362C433.934,270.172,435.709,268.396,437.9,268.396z"/>
             <path className="sm-screen" style={{fill:"#ffffff"}} d="M440.853,280.15h57.145c0.216,0,0.391,0.175,0.391,0.391v101.282c0,0.216-0.175,0.391-0.391,0.391
                 h-57.145c-0.216,0-0.391-0.175-0.391-0.391V280.54C440.462,280.325,440.638,280.15,440.853,280.15z"/>
@@ -55,7 +75,7 @@ function HeroImage() {
                 <path className="lg-screen" style={{fill:"#ECF0F1"}} d="M105.702,139.68c3.292,0,5.962,2.668,5.962,5.962s-2.67,5.962-5.962,5.962
                     c-3.298,0-5.967-2.668-5.967-5.962S102.404,139.68,105.702,139.68z"/>
             </g>
-            <path className="lg-screen" style={{fill:"#800308"}} d="M91.149,269.445c9.503,0,17.204,7.701,17.204,17.204c0,9.5-7.701,17.204-17.204,17.204
+            <path className="lg-screen" style={{fill:"#028643"}} d="M91.149,269.445c9.503,0,17.204,7.701,17.204,17.204c0,9.5-7.701,17.204-17.204,17.204
                 c-9.5,0-17.201-7.704-17.201-17.204C73.948,277.146,81.649,269.445,91.149,269.445z"/>
             <path className="lg-screen" style={{fill:"#000000"}} d="M180.029,269.445c9.5,0,17.201,7.701,17.201,17.204c0,9.5-7.701,17.204-17.201,17.204
                 s-17.201-7.704-17.201-17.204C162.828,277.146,170.529,269.445,180.029,269.445z"/>
@@ -65,11 +85,11 @@ function HeroImage() {
                 <path style={{fill:"#DCE3DB"}} d="M155.348,311.229h49.367v2.678h-49.367V311.229z M155.348,328.059h33.163v2.678h-33.163V328.059z
                      M155.348,319.645h49.367v2.676h-49.367V319.645z"/>
             </g>
-            <path className="lg-screen" style={{fill:"#FAD24D"}} d="M274.374,269.445c9.5,0,17.201,7.701,17.201,17.204c0,9.5-7.701,17.204-17.201,17.204
+            <path className="lg-screen" style={{fill:"#0cd23f"}} d="M274.374,269.445c9.5,0,17.201,7.701,17.201,17.204c0,9.5-7.701,17.204-17.201,17.204
                 c-9.5,0-17.201-7.704-17.201-17.204C257.172,277.146,264.873,269.445,274.374,269.445z"/>
             <path className="lg-screen" style={{fill:"#DCE3DB"}} d="M249.692,311.229h49.367v2.678h-49.367L249.692,311.229L249.692,311.229z M249.692,328.059h33.163
                 v2.678h-33.163V328.059z M249.692,319.645h49.367v2.676h-49.367L249.692,319.645L249.692,319.645z"/>
-            <path className="md-screen" style={{fill:"#800308"}} d="M362.963,313.651c5.896,0,10.678,4.782,10.678,10.678c0,5.896-4.779,10.678-10.678,10.678
+            <path className="md-screen" style={{fill:"#028643"}} d="M362.963,313.651c5.896,0,10.678,4.782,10.678,10.678c0,5.896-4.779,10.678-10.678,10.678
                 c-5.896,0-10.678-4.782-10.678-10.678C352.285,318.432,357.065,313.651,362.963,313.651z"/>
             <path className="md-screen" style={{fill:"#DCE3DB"}} d="M347.642,339.587h30.642v2.167h-30.642V339.587z M347.642,353.203h20.583v2.167h-20.583V353.203z
                  M347.642,346.393h30.642v2.167h-30.642V346.393z"/>
@@ -102,7 +122,7 @@ function HeroImage() {
             <path className="sm-screen" style={{fill:"#ffffff"}} d="M463.951,281.558h32.208c0.432,0,0.781,0.35,0.781,0.781v2.093c0,0.432-0.35,0.781-0.781,0.781
                 h-32.208c-0.432,0-0.781-0.35-0.781-0.781v-2.093C463.17,281.909,463.52,281.558,463.951,281.558z"/>
             <path className="sm-screen" style={{fill:"#ECF0F1"}} d="M443.272,289.134h52.308v30.831h-52.308V289.134z"/>
-            <path className="sm-screen" style={{fill:"#FAD24D"}} d="M470.962,326.286c5.362,0,9.708,4.346,9.708,9.71c0,5.362-4.346,9.71-9.708,9.71
+            <path className="sm-screen" style={{fill:"#028643"}} d="M470.962,326.286c5.362,0,9.708,4.346,9.708,9.71c0,5.362-4.346,9.71-9.708,9.71
                 c-5.362,0-9.708-4.346-9.708-9.71C461.255,330.634,465.601,326.286,470.962,326.286z"/>
             <path className="sm-screen" style={{fill:"#DCE3DB"}} d="M454.112,352.776h33.7v2.381h-33.7V352.776z M454.112,367.753h22.64v2.381h-22.64V367.753z
                  M454.112,360.264h33.7v2.381h-33.7V360.264z"/>

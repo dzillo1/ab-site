@@ -5,7 +5,7 @@ function Home() {
     return (
         <section
         id="home"
-        className="container section"
+        className="container-fluid section"
         >
             <Hero/>
         </section>
