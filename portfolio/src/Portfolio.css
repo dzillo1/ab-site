@@ -188,3 +188,11 @@ p, h4{
   }
 }
 
+@media(min-width:768px){
+  .top-pad {
+    padding-top: 10rem;
+}
+}
+
+
+
