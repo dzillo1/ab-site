@@ -18,7 +18,9 @@ function ProjectCard() {
     <>
       {data.map((project, index) => (
         <Card key={index} className="project-card">
-          <a onClick={() => handleShow(project)}>
+          <a 
+          onClick={() => handleShow(project)}
+          className="d-flex flex-column h-100">
             <Card.Img
               className="card-img img-fluid"
               variant="top"
@@ -26,9 +28,11 @@ function ProjectCard() {
             />
             <Card.Body>
               <Card.Title className="card-title">{project.title}</Card.Title>
-              <Card.Text className="card-text mb-3">{project.description}</Card.Text>
-              <Button variant="w-100">View</Button>
+              <Card.Text className="card-text">{project.description}</Card.Text>
             </Card.Body>
+            <Card.Footer>
+              <Button variant="w-100">View</Button>
+            </Card.Footer>
           </a>
 
           <Modal
