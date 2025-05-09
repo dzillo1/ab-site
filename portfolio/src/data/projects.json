@@ -24,5 +24,12 @@
       "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/product-item.webp",
       "link": "https://github.com/dzillo1/product-item-react/tree/main/product-item",
       "published": "https://dzillo1.github.io/product-item-react/"
+    },
+    {
+      "title": "Jenny Craig Rate Card",
+      "description": "Rate card for Jenny Craig made with html, bootstrap and javascript.",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/product-item.webp",
+      "link": "https://github.com/dzillo1/jc-content/blob/main/jc-ratecard.html",
+      "published": "https://dzillo1.github.io/jc-content/jc-ratecard"
     }
   ]
