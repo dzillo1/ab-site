@@ -144,6 +144,15 @@ p, h4{
     width: 10%;
     height: auto;
 }
+#about .svg-icon:hover path, #about .svg-icon:hover circle{
+fill:#aeb3b5;
+}
+
+#about .react-logo.svg-icon:hover g{
+stroke:#aeb3b5;
+}
+
+
 .card-text{
   color:#29353A;
 }
