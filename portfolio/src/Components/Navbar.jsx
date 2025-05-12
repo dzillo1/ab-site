@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Logo from '../assets/logo.webp';
+import Logo from '../assets/logo_ab.svg';
 import { gsap } from "gsap";
 
 gsap.registerPlugin();
@@ -45,14 +45,12 @@ function Navbar() {
     return (
         <nav className='navbar navbar-expand-lg fixed-top'>
             <div className="container-fluid">
-
-
                 <a
                     className="navbar-brand"
                     href="#home"
                     onClick={() => handleLinkClick("#home")}
                 >
-                    <img src={Logo} alt="ab" className="logo img-fluid" />
+                    <img src={Logo} alt="ab" className="logo" />
                 </a>
                 <button
                     className="navbar-toggler"
@@ -66,10 +64,6 @@ function Navbar() {
                 >
                     <span className="d-block d-lg-none text-white">&#9776;</span>
                 </button>
-
-
-
-
                 <div
                     className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
                     id="navbarNavAltMarkup"
@@ -83,7 +77,6 @@ function Navbar() {
                         >
                             Home
                         </a>
-
                         <a
                             href="#about"
                             className={`nav-link ${activeLink === "#about" ? "active" : ""}`}
@@ -91,7 +84,6 @@ function Navbar() {
                         >
                             About
                         </a>
-
                         <a
                             href="#projects"
                             className={`nav-link ${activeLink === "#projects" ? "active" : ""}`}
@@ -99,7 +91,6 @@ function Navbar() {
                         >
                             Projects
                         </a>
-
                         <a
                             href="#contact"
                             className={`nav-link ${activeLink === "#contact" ? "active" : ""}`}

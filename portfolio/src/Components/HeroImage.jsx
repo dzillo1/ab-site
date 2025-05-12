@@ -7,13 +7,13 @@ gsap.registerPlugin();
 function HeroImage() {
     useEffect(() => {
         gsap.to(".bg-circle", { opacity: 0, x: 200});
-        gsap.to(".bg-circle", { delay: .3, duration: 1, x: 0, opacity: 1 });
+        gsap.to(".bg-circle", { delay: .8, duration: 1, x: 0, opacity: 1 });
         gsap.to(".lg-screen", { y: -300, opacity:0 });
-        gsap.to(".lg-screen", { delay: 1, duration: .1, opacity: 1, y: 0, stagger: 0.1 });
+        gsap.to(".lg-screen", { delay: 1.1, duration: .1, opacity: 1, y: 0, stagger: 0.1 });
         gsap.to(".md-screen", { y: 300, opacity:0 });
-        gsap.to(".md-screen", { delay: 1.1, duration: .1, opacity: 1, y: 0, stagger: 0.2 });
+        gsap.to(".md-screen", { delay: 1.2, duration: .1, opacity: 1, y: 0, stagger: 0.2 });
         gsap.to(".sm-screen", { y: 300, opacity:0 });
-        gsap.to(".sm-screen", { delay: 1.2, duration: .1, opacity: 1, y: 0, stagger: 0.3 });
+        gsap.to(".sm-screen", { delay: 1.3, duration: .1, opacity: 1, y: 0, stagger: 0.3 });
 
     }, []);
     return(
