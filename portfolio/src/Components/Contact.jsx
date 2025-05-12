@@ -37,7 +37,10 @@ function Contact() {
             </div>
             <div id="messageForm" className="d-flex flex-column gap-3">
                 <h3>Send a Message</h3>
-                <form ref={form} onSubmit={handleSubmit} className="d-flex flex-column gap-3">
+                <form 
+                ref={form} 
+                onSubmit={handleSubmit} 
+                className="d-flex flex-column gap-3">
                     <div>
                         <label 
                         className="title" 
@@ -45,6 +48,7 @@ function Contact() {
                         <input 
                         type="text" 
                         id="name" 
+                        name="name"
                         className="" 
                         placeholder="John Doe"
                         required />
@@ -67,6 +71,7 @@ function Contact() {
                         htmlFor="message">Your message</label>
                         <textarea 
                         id="message" 
+                        name="message"
                         className="" 
                         placeholder="Hello, I would like to talk about..."
                         required />
