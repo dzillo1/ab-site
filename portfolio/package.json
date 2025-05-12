@@ -13,9 +13,11 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.13.1",
     "framer-motion": "^12.9.2",
     "gsap": "^3.13.0",
     "react": "^19.0.0",
