@@ -9,7 +9,7 @@ function Contact() {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_i47irhj',
+            'service_qq2jfdq',
             'template_3byyvkh',
             form.current,
             'Rg4jqsWSU9hjpwBEH'
