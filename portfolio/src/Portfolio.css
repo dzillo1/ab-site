@@ -55,7 +55,6 @@ nav{
     width:8rem;
     height:auto;
     opacity:0;
-    border-radius:.5rem;
     transition: transform .2s;
 }
 .logo:hover{
@@ -102,7 +101,7 @@ h2{
     font-style: italic;
 }
 h3{
-    color:#02fd5d;
+    color:#00a83d;
     font-family: "Sansation", sans-serif;
     font-weight: 400;
 }
@@ -171,14 +170,16 @@ stroke:#aeb3b5;
 }
 
 .card button{
-  background-color:#00a83d;
+  background-color:#015821;
+  border:1px solid #0a0a0a;
   color:#fff;
   width:100%;
 
 }
 .card button:hover{
-  background-color:#015821;
-  color:#fff;
+  background-color:#02fd5d;
+  color:#0a0a0a;
+  border:1px solid #015821;
 }
 
 .code-link{
@@ -200,17 +201,34 @@ stroke:#aeb3b5;
     max-width:70%;
   }
   #contact{
-    min-height:50rem
+    min-height:60rem
   }
 #submitButton{
+  background-color:#0a0a0a;
+  color:#fff;
+  border:1px solid #015821;
+  border-radius:3rem;
+  padding:.5rem
+}
+#submitButton:hover{
   background-color:#02fd5d;
   color:#0a0a0a;
   border-color:#015821;
-  border-radius:3rem;
-  width:100%;
+}
+#messageForm{
+  background-color: #0a0a0a;
+      border-radius:.5rem;
+      padding:1rem
 }
 #messageForm textarea{
   height:6rem;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #02fd5d;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(2, 253, 93, .25);
 }
 @media(max-width:767px){
   #heroImage{
@@ -227,6 +245,9 @@ stroke:#aeb3b5;
 @media(min-width:768px){
   .top-pad {
     padding-top: 10rem;
+}
+#messageForm{
+  width:50%
 }
 }
 

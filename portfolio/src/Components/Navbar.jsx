@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import Logo from '../assets/logo_ab.svg';
 import { gsap } from "gsap";
 
-gsap.registerPlugin();
-
 function Navbar() {
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [activeLink, setActiveLink] = useState("#home");
@@ -14,6 +12,9 @@ function Navbar() {
         gsap.to(".nav-link", { x: 300 });
         gsap.to(".nav-link", { delay: 1, duration: 1, opacity: 1, x: 0, stagger: 0.3 });
     }, []);
+
+
+
 
     useEffect(() => {
         const sections = document.querySelectorAll("section, div[id]");
@@ -33,6 +34,7 @@ function Navbar() {
         return () => observer.disconnect();
     }, []);
 
+    
     const handleToggle = () => {
         setIsCollapsed(!isCollapsed);
     };
