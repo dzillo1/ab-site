@@ -32,4 +32,12 @@
       "link": "https://github.com/dzillo1/jc-content/blob/main/jc-ratecard.html",
       "published": "https://dzillo1.github.io/jc-content/jc-ratecard"
     }
+    ,
+    {
+      "title": "Wellina",
+      "description": "Stand alone brand site test. Built with html, css, bootstrap.",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/wellina-hp.webp",
+      "link": "https://github.com/dzillo1/wellina-content/blob/main/home/wellina-hp-ns110460-marketplace.html",
+      "published": "https://dzillo1.github.io/wellina-content/home/wellina-hp-ns110460-marketplace"
+    }
   ]
