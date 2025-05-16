@@ -3,20 +3,23 @@
       "title": "Order Options - Vue",
       "description": "'Order Options' component made with VUE.js.",
       "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/order-options.webp",
-      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/order-options.php"
+      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/order-options.php",
+      "published": "https://dzillo1.github.io/ns-code/VUE-comp/order-options.html"
 
     },
     {
       "title": "Cart Item - Vue",
       "description": "'Cart Item' component made with VUE.js.",
       "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/cart-item.webp",
-      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/cart-item.php"
+      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/cart-item.php",
+      "published": "https://dzillo1.github.io/ns-code/VUE-comp/cart-item.html"
     },
     {
       "title": "Product Item - Vue",
       "description": "'Product Item' component made with VUE.js.",
       "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/product-item.webp",
-      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/product-item.php"
+      "link": "https://github.com/dzillo1/ns-code/blob/main/VUE-comp/product-item.php",
+      "published": "https://dzillo1.github.io/ns-code/VUE-comp/product-item.html"
     },
     {
       "title": "Product Item - React",
