@@ -144,7 +144,9 @@ p, h4{
   text-decoration: none;
   color:inherit;
 }
-
+.project-card button{
+  border-radius:3rem;
+}
 #contact .title{
   width:6rem;
   color: #aeb3b5;
