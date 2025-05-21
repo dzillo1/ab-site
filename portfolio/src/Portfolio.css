@@ -238,10 +238,15 @@ stroke:#aeb3b5;
     height:auto;
     margin:0 auto;
   }
+
 }
-@media(max-width:350px){
-  .contact-link{
-    word-break: break-all;
+@media(max-width:450px){
+  .contact-link.linkedin{
+    display: inline-block;
+    white-space: nowrap;
+    width:12rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 @media(min-width:768px){

@@ -34,7 +34,17 @@ function Contact() {
             <h1 className="mb-4">Contact</h1>
             <div className="d-flex flex-column gap-4 mb-5">
                 <p className="d-flex flex-wrap gap-2"><span className="title"><i className="bi bi-mailbox"></i> Email</span> <a href="mailto:dzillo1@gmail.com" className="contact-link">dzillo1@gmail.com</a></p>
-                <p className="d-flex flex-wrap gap-2"><span className="title"><i className="bi bi-linkedin"></i> LinkedIn</span> <a href="https://www.linkedin.com/in/andrewborzillo" className="contact-link" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/andrewborzillo</a></p>
+                <p 
+                    className="d-flex flex-wrap gap-2">
+                    <span className="title">
+                        <i className="bi bi-linkedin"></i> LinkedIn
+                    </span> 
+                    <a 
+                    href="https://www.linkedin.com/in/andrewborzillo" 
+                    className="contact-link linkedin" 
+                    target="_blank" 
+                    rel="noopener noreferrer">https://www.linkedin.com/in/andrewborzillo</a>
+                </p>
                 <p className="d-flex flex-wrap gap-2"><span className="title"><i className="bi bi-pin"></i> Location</span> <a href="https://maps.app.goo.gl/bx3UmqSPMjtn3L716" className="contact-link" target="_blank" rel="noopener noreferrer">Royersford, PA, 19468</a></p>
             </div>
             <div id="messageForm" className="d-flex flex-column gap-3">

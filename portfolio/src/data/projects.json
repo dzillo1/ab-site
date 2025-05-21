@@ -30,7 +30,7 @@
     },
     {
       "title": "Jenny Craig Rate Card",
-      "description": "Rate card for Jenny Craig made with html, bootstrap and javascript.",
+      "description": "Rate card for Jenny Craig made with html, bootstrap and javaScript.",
       "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/jc-ratecard.webp",
       "link": "https://github.com/dzillo1/jc-content/blob/main/jc-ratecard.html",
       "published": "https://dzillo1.github.io/jc-content/jc-ratecard"
@@ -52,7 +52,7 @@
     ,
     {
       "title": "My Account - Dashboard",
-      "description": "My Account refresh project. Built with html, css, javascript and bootstrap.",
+      "description": "My Account refresh project. Built with html, css, javaScript and bootstrap.",
       "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/myacct-dasboard.webp",
       "link": "https://github.com/dzillo1/ns-code/blob/main/my-account-dashboard/dashboard-plan.html",
       "published": "https://dzillo1.github.io/ns-code/my-account-dashboard/dashboard-plan.html"
