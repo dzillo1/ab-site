@@ -29,7 +29,7 @@ function About() {
     
     <svg className="vue-logo svg-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <title>Vue - 3+ years</title> <path fillRule="nonzero" clipRule="nonzero" d="M11.7527 1.00003H10.4167C10.1615 1.00003 9.92378 1.1298 9.78578 1.34446L8 4.12235L6.21422 1.34446C6.07622 1.1298 5.83853 1.00003 5.58333 1.00003H0.75C0.481089 1.00003 0.232759 1.144 0.0991399 1.37737C-0.0344791 1.61073 -0.0329346 1.89777 0.103188 2.12968L7.35319 14.4815C7.48785 14.711 7.73397 14.8519 8 14.8519C8.26603 14.8519 8.51215 14.711 8.64681 14.4815L15.8968 2.12968C16.0329 1.89777 16.0345 1.61073 15.9009 1.37737C15.7672 1.144 15.5189 1.00003 15.25 1.00003H11.7668C11.7621 0.999989 11.7574 0.999989 11.7527 1.00003ZM3.80997 2.50003L8.00001 9.68295L12.19 2.50003H13.9401L8 12.6203L2.05987 2.50003H3.80997Z" fill="#555"/> </svg>
     
-    <svg className="react-logo svg-icon" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg"> <title>React</title> <circle cx="0" cy="0" r="2" fill="#555"></circle> <g stroke="#555" strokeWidth="1" fill="none"> <ellipse rx="10" ry="4.5"></ellipse> <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse> <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg>
+    <svg className="react-logo svg-icon" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg"> <title>React - 2+ years</title> <circle cx="0" cy="0" r="2" fill="#555"></circle> <g stroke="#555" strokeWidth="1" fill="none"> <ellipse rx="10" ry="4.5"></ellipse> <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse> <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg>
 </div>
 
                 </div>
