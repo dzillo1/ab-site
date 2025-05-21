@@ -165,8 +165,15 @@ fill:#aeb3b5;
 #about .react-logo.svg-icon:hover g{
 stroke:#aeb3b5;
 }
-
-
+.popover-body{
+      padding: .25rem;
+    color: #0a0a0a;
+    background-color: #02fd5d;
+}
+.bs-popover-auto[data-popper-placement^=bottom]>.popover-arrow::after, .bs-popover-bottom>.popover-arrow::after {
+    top: var(--bs-popover-border-width);
+    border-bottom-color: #02fd5d;
+}
 .card-text{
   color:#29353A;
 }
