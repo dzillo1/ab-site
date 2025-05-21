@@ -40,14 +40,14 @@ const popoverBs = (
 const popoverVue = (
         <Popover id="vuePop">
         <Popover.Body>
-          Vue - 2+ years
+          Vue - 3+ years
         </Popover.Body>
       </Popover>
 );
 const popoverReact = (
         <Popover id="reactPop">
         <Popover.Body>
-          React - 1+ years
+          React - 2+ years
         </Popover.Body>
       </Popover>
 );
