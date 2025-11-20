@@ -1,0 +1,8 @@
+  ,
+    {
+      "title": "My Account - Dashboard",
+      "description": "My Account refresh project. Built with html, css, javaScript and bootstrap.",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/myacct-dasboard.webp",
+      "link": "https://github.com/dzillo1/ns-code/blob/main/my-account-dashboard/dashboard-plan.html",
+      "published": "https://dzillo1.github.io/ns-code/my-account-dashboard/dashboard-plan.html"
+    }
