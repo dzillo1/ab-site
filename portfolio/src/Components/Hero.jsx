@@ -9,8 +9,8 @@ function Hero(){
                         <h1>Andrew Borzillo</h1>
                         <h2><em>Front-End Designer & Developer</em></h2>
                         <h4>
-                        <strong>Hi, I’m Andrew—most people call me Drew.</strong><br/>
-                        I’m a Front-End Designer and Developer with 15+ years of experience creating responsive, user-focused web applications. I specialize in HTML, CSS, JavaScript, and modern frameworks like Vue.js and React. I combine design sensibility with technical expertise to craft intuitive digital experiences. I enjoy working collaboratively to deliver high-quality solutions that elevate user engagement.
+                        <strong>Hi, I'm Andrew—most people call me Drew.</strong><br/>
+                        I'm a Front-End Designer and Developer with 15+ years of experience creating responsive, user-focused web applications. I specialize in HTML, CSS, JavaScript, and modern frameworks like Vue.js and React. I combine design sensibility with technical expertise to craft intuitive digital experiences. I enjoy working collaboratively to deliver high-quality solutions that elevate user engagement.
                         </h4>
                     </div>
                     <div className="col text-center">
