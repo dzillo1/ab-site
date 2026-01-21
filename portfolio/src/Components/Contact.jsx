@@ -61,7 +61,7 @@ function Contact() {
                         className="mb-3"
                         required
                     >
-                        <Form.Control type="email" placeholder="First Last" />
+                        <Form.Control type="text" placeholder="First Last" />
                     </FloatingLabel>
 
                     <FloatingLabel
