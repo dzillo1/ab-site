@@ -60,6 +60,7 @@ function Contact() {
                         label="Your name"
                         className="mb-3"
                         required
+                        autocomplete="on"
                     >
                         <Form.Control type="text" placeholder="First Last" />
                     </FloatingLabel>
@@ -70,6 +71,7 @@ function Contact() {
                         label="Email address"
                         className="mb-3"
                         required
+                        autocomplete="off"
                     >
                         <Form.Control type="email" placeholder="name@example.com" />
                     </FloatingLabel>
