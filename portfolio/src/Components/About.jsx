@@ -67,7 +67,7 @@ function About() {
         >
             <div className="row">
                 <div className="col-md-8">
-                    <h1>About</h1>
+                    <h2 className="h1">About</h2>
                     <p className="mb-2">I began my career in graphic design, earning a Bachelor's degree from Cabrini University. Over time, I discovered a strong passion for coding and web development, which led me to pursue a Master of Science in Instructional Systems and Technology.</p>
                     <p className="mb-2">Since then, I've built my skills in HTML, CSS, and JavaScript, taking on roles that blend design and development. My experience includes working as a Graphic Designer at Verizon, a SPEC Artist/Mobile Web Support at SuperMedia, and a UI/UX Interaction Designer and Front-End Developer at Vanguard. I currently serve as a Front-End Developer at Nutrisystem.</p>
                     <p className="mb-5">Web development continues to be a true passion of mine. I'm driven by the opportunity to create, build, and learn something new every day.</p>

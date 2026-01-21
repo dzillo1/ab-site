@@ -31,7 +31,7 @@ function Contact() {
         id="contact"
         className="container top-pad section"
         >
-            <h1 className="mb-4">Contact</h1>
+            <h2 className="mb-4 h1">Contact</h2>
             <div className="d-flex flex-column gap-4 mb-5">
                 <p className="d-flex flex-wrap gap-2"><span className="title"><i className="bi bi-mailbox"></i> Email</span> <a href="mailto:dzillo1@gmail.com" className="contact-link">dzillo1@gmail.com</a></p>
                 <p 
@@ -62,7 +62,7 @@ function Contact() {
                         required
                         autocomplete="on"
                     >
-                        <Form.Control type="text" placeholder="First Last" />
+                        <Form.Control type="text" placeholder="First Last" autoComplete='on' />
                     </FloatingLabel>
 
                     <FloatingLabel
@@ -73,7 +73,7 @@ function Contact() {
                         required
                         autocomplete="off"
                     >
-                        <Form.Control type="email" placeholder="name@example.com" />
+                        <Form.Control type="email" placeholder="name@example.com" autoComplete='off'/>
                     </FloatingLabel>
 
                     <FloatingLabel

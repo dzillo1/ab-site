@@ -88,7 +88,7 @@ a.navbar-brand.active{
   box-shadow: 0 0 .5rem #02fd5d;
 }
 
-h1{
+h1, .h1{
     color:#00a83d;
     font-family: "Sansation", sans-serif;
     font-weight: 700;
@@ -98,7 +98,6 @@ h2{
     color:#899a8e;
     font-family: "Sansation", sans-serif;
     font-weight: 300;
-    font-style: italic;
 }
 h3{
     color:#00a83d;
