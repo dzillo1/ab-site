@@ -25,6 +25,7 @@ function ProjectCard() {
               className="card-img img-fluid"
               variant="top"
               src={project.image}
+              alt={project.title}
             />
             <Card.Body>
               <Card.Title className="card-title">{project.title}</Card.Title>
