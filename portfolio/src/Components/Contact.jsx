@@ -62,7 +62,7 @@ function Contact() {
                         required
                         autocomplete="on"
                     >
-                        <Form.Control type="text" placeholder="First Last" autoComplete='on' />
+                        <Form.Control type="text" placeholder="First Last" autoComplete='on' name="name" />
                     </FloatingLabel>
 
                     <FloatingLabel
@@ -73,7 +73,7 @@ function Contact() {
                         required
                         autocomplete="off"
                     >
-                        <Form.Control type="email" placeholder="name@example.com" autoComplete='off'/>
+                        <Form.Control type="email" placeholder="name@example.com" autoComplete='off' name="email" />
                     </FloatingLabel>
 
                     <FloatingLabel
@@ -82,7 +82,7 @@ function Contact() {
                         className="mb-3"
                         required
                     >
-                        <Form.Control as="textarea" placeholder="Leave a message here" />
+                        <Form.Control as="textarea" placeholder="Leave a message here" name="message" />
                     </FloatingLabel>
 
                     <button 
