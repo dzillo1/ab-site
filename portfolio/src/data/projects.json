@@ -58,9 +58,16 @@
     },
     {
       "title": "Component API",
-      "description": "A small full-stack project demonstrating a RESTful API with a live frontend on GitHub Pages. Built to showcase CRUD operations and integration between a static site and a backend API.",
+      "description": "A small full-stack project demonstrating a RESTful API. Built to showcase CRUD operations and integration between a static site and a backend API.",
       "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/comp-api-img.jpg",
       "link": "https://github.com/dzillo1/api/tree/master",
-      "published": "https://dzillo1.github.io/api/component-api/index.html"
+      "published": "https://dzillo1.github.io/api/component-api/"
+    },
+    {
+      "title": "Secure API Demo",
+      "description": "JWT-secured Express API with protected routes. Demonstrates authentication, authorization, API security best practices, and client-server integration using modern JavaScript.",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/sec-api-dem-img.jpg",
+      "link": "https://github.com/dzillo1/api/tree/master",
+      "published": "https://dzillo1.github.io/secure-api-demo/client/"
     }
   ]
