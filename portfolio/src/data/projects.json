@@ -66,7 +66,7 @@
     {
       "title": "Secure API with JWT Authentication",
       "description": "JWT-secured Express API with protected routes. Demonstrates authentication, authorization, API security best practices, and client-server integration using modern JavaScript.",
-      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/sec-api-dem-img.jpg",
+      "image": "https://raw.githubusercontent.com/dzillo1/ab-site/refs/heads/main/portfolio/src/assets/secure-api-img.jpg",
       "link": "https://github.com/dzillo1/secure-api-demo",
       "published": "https://dzillo1.github.io/secure-api-demo/client/"
     }
