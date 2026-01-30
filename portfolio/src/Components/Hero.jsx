@@ -10,7 +10,7 @@ function Hero(){
                         <h2 className="mb-5"><em>Commercial Lines Underwriting Candidate | Risk Analysis & Decision Support</em></h2>
                         <h4>
                         <strong>Hi, I'm Andrew—most people call me Drew.</strong><br/>
-                        I'm transitioning into commercial lines underwriting, currently completing my Property & Casualty insurance licensing, with a strong foundation in analytical thinking, process evaluation, and data-driven decision-making.<br/><br/>I bring 15+ years of professional experience working within structured guidelines, assessing complex information, and supporting high-impact business decisions—skills that directly align with underwriting in commercial insurance.
+                        I'm transitioning into commercial lines insurance, currently completing my Property & Casualty insurance licensing, with a strong foundation in analytical thinking, process evaluation, and data-driven decision-making.<br/><br/>I bring 15+ years of professional experience working within structured guidelines, assessing complex information, and supporting high-impact business decisions—skills that directly align with underwriting in commercial insurance.
                         </h4>
                     </div>
                     <div className="col text-center">
