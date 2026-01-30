@@ -7,10 +7,10 @@ function Hero(){
                 <div className="row flex-column flex-md-row align-items-center gap-3 gap-md-0">
                     <div className="col">
                         <h1>Andrew Borzillo</h1>
-                        <h2><em>Front-End Designer & Developer</em></h2>
+                        <h2 className="mb-5"><em>Commercial Lines Underwriting Candidate | Risk Analysis & Decision Support</em></h2>
                         <h4>
                         <strong>Hi, I'm Andrew—most people call me Drew.</strong><br/>
-                        I'm a Front-End Designer and Developer with 15+ years of experience creating responsive, user-focused web applications. I specialize in HTML, CSS, JavaScript, and modern frameworks like Vue.js and React. I combine design sensibility with technical expertise to craft intuitive digital experiences. I enjoy working collaboratively to deliver high-quality solutions that elevate user engagement.
+                        I'm transitioning into commercial lines underwriting, currently completing my Property & Casualty insurance licensing, with a strong foundation in analytical thinking, process evaluation, and data-driven decision-making.<br/><br/>I bring 15+ years of professional experience working within structured guidelines, assessing complex information, and supporting high-impact business decisions—skills that directly align with underwriting in commercial insurance.
                         </h4>
                     </div>
                     <div className="col text-center">
