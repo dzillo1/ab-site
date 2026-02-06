@@ -68,24 +68,24 @@ function About() {
             <div className="row">
                 <div className="col-md-8">
                     <h2 className="h1">About</h2>
-                    <p className="mb-2">My career began in graphic design, where precision, standards, and attention to detail were essential. Over time, I moved into front-end development, working in highly regulated, data-driven environments for large organizations including <strong>Verizon</strong>, <strong>Vanguard</strong>, and <strong>Nutrisystem</strong>.</p>
-                    <p className="mb-2">Across these roles, I consistently worked with:</p>
+                    <p className="mb-2">My professional background spans design and technology roles in regulated, process-driven environments, where accuracy, documentation, and adherence to defined standards were essential. I have supported large organizations by evaluating complex information, following structured guidelines, and contributing to decisions with business and financial impact.</p>
+                    <p className="mb-2">Across my career, I have worked within:</p>
                     <ul classNme="mb-2">
-                        <li>High-volume workflows and tight deadlines</li>
+                        <li>High-volume operational workflows</li>
                         <li>Defined rules, standards, and approval criteria</li>
-                        <li>Cross-functional teams supporting business and financial outcomes</li>
-                        <li>Detailed documentation, quality control, and risk mitigation</li>
+                        <li>Cross-functional teams supporting risk-aware outcomes</li>
+                        <li>Documentation, quality control, and issue mitigation processes</li>
                     </ul>
-                    <p className="mb-3">These experiences sparked my interest in risk assessment, policy evaluation, and structured decision-making, leading me to pursue a career in commercial insurance underwriting.</p>
-                    <p className="mb-2">I am currently studying for my <strong>Property & Casualty license</strong> and actively developing industry knowledge in:</p>
+                    <p className="mb-3">These experiences naturally led me to pursue commercial property & casualty underwriting, where analytical judgment, consistency, and sound decision-making are critical.</p>
+                    <p className="mb-2">I am currently completing my Property & Casualty licensing and developing focused knowledge in:</p>
                     <ul classNme="mb-3">
                         <li>Commercial risk exposure analysis</li>
-                        <li>Application of underwriting guidelines</li>
-                        <li>Policy terms, coverage evaluation, and documentation</li>
+                        <li>Application of underwriting guidelines and standards</li>
+                        <li>Coverage evaluation, policy terms, and documentation</li>
                         <li>Loss prevention and operational risk considerations</li>
                     </ul>
-                    <p className="mb-2"><strong>Career Transition Focus</strong></p>
-                    <p className="mb-5">While my background is in technology and design, the core of my experience has always been analytical: evaluating information, identifying risk, following defined standards, and supporting sound business decisions. I am intentionally transitioning these skills into commercial underwriting, where accuracy, judgment, and consistency matter most.</p>
+
+                    <p className="mb-5">While my earlier roles were in technology and design, the core of my work has always been analytical and criteria-based. I am intentionally applying this foundation to commercial underwriting, where disciplined evaluation and accuracy matter most.</p>
 
 <div className="d-flex gap-3 gap-lg-4">
 <OverlayTrigger 
