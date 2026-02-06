@@ -86,7 +86,7 @@ function About() {
                     </ul>
 
                     <p className="mb-5">While my earlier roles were in technology and design, the core of my work has always been analytical and criteria-based. I am intentionally applying this foundation to commercial underwriting, where disciplined evaluation and accuracy matter most.</p>
-
+{/*
 <div className="d-flex gap-3 gap-lg-4">
 <OverlayTrigger 
 trigger="click"
@@ -166,6 +166,7 @@ trigger="click"
     <svg className="react-logo svg-icon" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="reactTitle" onClick={() => setOpenPopover('react')}> <title id="reactTitle">React - 2+ years</title> <circle cx="0" cy="0" r="2" fill="#555"></circle> <g stroke="#555" strokeWidth="1" fill="none"> <ellipse rx="10" ry="4.5"></ellipse> <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse> <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg>
     </OverlayTrigger>
 </div>
+*/}
 
                 </div>
             </div>

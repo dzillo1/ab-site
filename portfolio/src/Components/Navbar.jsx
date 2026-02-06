@@ -87,11 +87,11 @@ function Navbar() {
                             About
                         </a>
                         <a
-                            href="#projects"
-                            className={`nav-link ${activeLink === "#projects" ? "active" : ""}`}
-                            onClick={() => handleLinkClick("#projects")}
+                            href="#alignment"
+                            className={`nav-link ${activeLink === "#alignment" ? "active" : ""}`}
+                            onClick={() => handleLinkClick("#alignment")}
                         >
-                            Projects
+                            Alignment
                         </a>
                         <a
                             href="#contact"
